@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+aside{
+    text-align: center;
+    left: 10px;
+    top: 20px;
+
+    position: absolute;
+}
+
+form div {
+    margin-left: 25%;
+}
+aside form input{
+
+    display: block;
+    padding: 4px 0px 4px  20px;
+
+    margin-bottom: 10px;
+}
+aside form button{
+    padding: 5px 45px;
+    background-color: rgb(87, 159, 226);
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+#article-card-lateral{
+     text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-bottom: 30px; 
+}
+#article-card-lateral div{
+ display: inline-block;
+}
+.img-lateral{
+    width: 180px;
+}
+#primeiroarticle{
+    margin-left: 24%
+}
+#article-texto{
+    display: block;
+    margin: 40px auto;
+    width: 50%;
+    text-align: justify;
+}
+#article-texto h2{
+    text-align: center;
+}
+#article-text-button{
+    text-align: center;
+}
+#article-text-button button{
+  border: none;
+  margin-top: 15px;
+  padding: 15px 45px 15px 45px;
+  margin-right: 20px;
+  background-color: rgb(110, 175, 235);
+  cursor: pointer;
+}
+#article-text-button button:hover{
+    border: none;
+    margin-top: 15px;
+    padding: 15px 45px 15px 45px;
+    margin-right: 20px;
+    background-color: rgb(61, 151, 235);
+    cursor: pointer;
+  }
+
+
+.article-div{
+    margin-bottom: 120px;
+    margin-top: 40px;
+    margin-left: 40px;
+    vertical-align: top;
+    border: 1px solid #666;
+    text-align: center;
+    display: inline-block;
+    width: calc(15% - 10px);
+
+}
+.article-div p{
+    text-align: justify;
+    padding: 10px;
+}
+.img-div{
+    width: 100%;
+    display: inline-block;
+}
